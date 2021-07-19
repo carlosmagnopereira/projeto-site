@@ -4,13 +4,68 @@
 }
 
 body {
-    background-color: rgba(219, 184, 213, 0.781);
+    background-color: #1919bb75;
+    text-indent: 20px;
+    text-align: justify;
 }
 
 main {
     background-color: white;
-    width: 600px;
+    max-width: 600px;
+    min-width: 300px;
     margin: auto;
-    padding: 10px;
-    box-shadow: 2px 2px 0px rgba(0, 0, 0, 0.356);
+    padding: 15px;
+    box-shadow: 4px 4px 2px rgba(0, 0, 0, 0.493);
+    border-radius: 0px 0px 15px 15px;
+}
+
+h1 {
+    color: #37006B;
+    font-size: 3em;
+    text-align: center;
+}
+
+h2 {
+    color: #1C1CFF;
+    font-size: 1.5em;
+}
+
+p {
+    line-height: 1.5em;
+}
+
+.lado {
+    float: right;
+    padding-left: 10px;
+}
+a {
+    text-decoration: none;
+    color: #37006B;
+}
+
+p > a:hover {
+    text-decoration: underline;
+    background-color: #1C1CFF;
+    color: white;
+    padding: 5px;
+    box-shadow: 2px 2px 4px  rgba(0, 0, 0, 0.493);
+    transition-duration: 0.5s;
+}
+
+.video {
+    position: relative;
+    background-color:#37006bc4;
+    padding-bottom: 60%;
+    height: 0px;
+    margin-bottom: 20px;
+    margin-left: -14px;
+    margin-right: -15px;
+}
+
+.video > iframe {
+    position:absolute;
+    left: 3%;
+    top: 5%;
+    width: 93%;
+    height: 90%;
 }
